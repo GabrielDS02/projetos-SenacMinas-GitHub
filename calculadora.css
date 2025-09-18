@@ -1,0 +1,174 @@
+  body 
+  { 
+
+            display: flex; 
+
+            justify-content: center; 
+
+            align-items: center; 
+
+            height: 100vh; 
+
+            background: #282c34; 
+
+            font-family: 'Arial', sans-serif; 
+
+        } 
+
+ 
+
+        .calculadora 
+        { 
+
+            background: #1e1e1e; 
+
+            padding: 25px; 
+
+            border-radius: 15px; 
+
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.4); 
+
+            width: 300px; 
+
+        } 
+
+ 
+
+        #display 
+        { 
+
+            width: 90%; 
+
+            height: 60px; 
+
+            margin-bottom: 20px; 
+
+            text-align: right; 
+
+            padding: 10px; 
+
+            font-size: 28px; 
+
+            border-radius: 10px; 
+
+            border: none; 
+
+            outline: none; 
+
+            background: #333; 
+
+            color: #fff; 
+
+        } 
+
+ 
+
+        .botoes 
+        { 
+
+            display: grid; 
+
+            grid-template-columns: repeat(4, 1fr); 
+
+            gap: 15px; 
+
+        } 
+
+ 
+
+        button 
+        { 
+
+            padding: 20px; 
+
+            font-size: 20px; 
+
+            border: none; 
+
+            border-radius: 10px; 
+
+            cursor: pointer; 
+
+            transition: 0.2s; 
+
+            color: #fff; 
+
+            background: #555; 
+
+        } 
+
+ 
+
+        button:hover 
+        { 
+
+            background: #666; 
+
+        } 
+
+ 
+
+        .operador 
+        { 
+
+            background: #ff9500; 
+
+        } 
+
+ 
+
+        .operador:hover 
+        { 
+
+            background: #e68a00; 
+
+        } 
+
+ 
+
+        .igual 
+        { 
+
+            background: #28a745; 
+
+            grid-column: span 2; 
+
+        } 
+
+ 
+
+        .igual:hover 
+        { 
+
+            background: #218838; 
+
+        } 
+
+ 
+
+        .limpar 
+        { 
+
+            background: #dc3545; 
+
+        } 
+
+ 
+
+        .limpar:hover 
+        { 
+
+            background: #c82333; 
+
+        } 
+
+ 
+
+        /* Ajustando largura do 0 para ocupar 2 colunas */ 
+
+        .zero 
+        { 
+
+            grid-column: span 2; 
+
+        } 
